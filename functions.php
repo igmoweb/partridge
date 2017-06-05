@@ -4,7 +4,7 @@ class Partridge_Theme {
 
 	public function enqueue_styles() {
 		wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
-		wp_enqueue_style( 'twentyseventeen-style', get_stylesheet_uri(), array(), '20170218d' );
+		wp_enqueue_style( 'twentyseventeen-style', get_stylesheet_uri(), array(), '20170605' );
 		wp_enqueue_style( 'partridge-fonts', 'https://fonts.googleapis.com/css?family=Cinzel|Droid+Sans:400,700' );
 	}
 

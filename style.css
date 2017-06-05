@@ -223,7 +223,7 @@ body.blog #main article {
 	body.page-two-column:not(.archive) #primary .entry-header,
 	body.page-two-column.archive:not(.has-sidebar) #primary .page-header {
 		float: none;
-		width: 70%;
+		width: 100%;
 	}
 
 	.blog:not(.has-sidebar) #primary article,
